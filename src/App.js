@@ -1,21 +1,23 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import { Counter, ClickCounter} from './Counter';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Редактируй <code>src/App.js</code>
         </p>
+        <Counter />
+        <ClickCounter />
         <a
           className="App-link"
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Учитесь ребята
         </a>
       </header>
     </div>
